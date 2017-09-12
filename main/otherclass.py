@@ -3,7 +3,7 @@
 """
 __title__ = ''
 __author__ = 'BF100395'
-__mtime__ = '2017/9/8'
+__mtime__ = '2017/9/11'
 # code is far away from bugs with the god animal protecting
     I love animals. They taste delicious.
               ┏┓      ┏┓
@@ -19,31 +19,27 @@ __mtime__ = '2017/9/8'
                   ┃┫┫  ┃┫┫
                   ┗┻┛  ┗┻┛
 """
+from main.people import sample
+
+"""
+from main.classinstance import MyClass, Complex
+
+x=MyClass()
+print("MyClass 类的方法 f 输出为：", x.f())
+print(x.data)
+
+y=Complex(3,5)
+print(y.r,y.i)
 
 
-#创建元组
 """
 
-tup1 = ('Google', 'Runoob', 1997, 2000);
-tup2 = (1, 2, 3, 4, 5 );
-tup3 = "a", "b", "c", "d";
-print('tup1[0]',tup1[0])
-print('tup2[0]',tup2[0])
-print('tup3[0]',tup3[0])
-print(tup3[1:5])
-"""
+test = sample("Tim",25,80,4,"Python")
+test.speak()
 
-#修改元组
-#元组不允许直接修改元素
 
-tup=(12,34.56,78)
-tup2 = ('abc', 'xyz')
-tup3=tup+tup2
-print(tup3)
 
-#删除元组
-#元组中的元素不允许删除,但我们可以用del语句删除整个元组
 
-del tup
-print(tup)
-print(tup3)
+
+
+
